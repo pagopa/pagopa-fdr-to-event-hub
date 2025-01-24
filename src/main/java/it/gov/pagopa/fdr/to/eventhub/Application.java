@@ -1,4 +1,4 @@
-package it.gov.pagopa.fdr.to.eventhub; // TODO: refactor the package
+package it.gov.pagopa.fdr.to.eventhub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
