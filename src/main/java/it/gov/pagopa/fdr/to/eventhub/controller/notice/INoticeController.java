@@ -18,7 +18,7 @@ import it.gov.pagopa.fdr.to.eventhub.model.notice.NoticeModel;
 import jakarta.validation.Valid;
 
 @Tag(name = "Notice API", description = "APIs to manage notice operations")
-@RequestMapping("/api/notice")
+@RequestMapping("/api/notify")
 public interface INoticeController {
 
 	@Operation(

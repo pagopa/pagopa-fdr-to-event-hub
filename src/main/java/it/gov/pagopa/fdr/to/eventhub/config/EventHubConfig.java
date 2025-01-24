@@ -22,14 +22,14 @@ public class EventHubConfig {
     private String reportedIUVName;
 	
 	@Bean(name = "eventHubClientFlowTx")
-    public EventHubProducerClient eventHubClientOne() {
+    public EventHubProducerClient eventHubClientFlowTx() {
         return new EventHubClientBuilder()
                 .connectionString(flowTxConnectionString, flowTxName)
                 .buildProducerClient();
     }
 
     @Bean(name = "eventHubClientReportedIUV")
-    public EventHubProducerClient eventHubClientTwo() {
+    public EventHubProducerClient eventHubClientReportedIUV() {
         return new EventHubClientBuilder()
                 .connectionString(reportedIUVConnectionString, reportedIUVName)
                 .buildProducerClient();
